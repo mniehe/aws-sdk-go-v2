@@ -5,7 +5,7 @@ package appflow
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/appflow/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/appflow/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

@@ -3,7 +3,7 @@ package s3
 import (
 	"context"
 
-	"github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3/internal/customizations"
 	"github.com/aws/smithy-go/middleware"
 )
 

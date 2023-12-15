@@ -5,7 +5,7 @@ package query
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
 	"github.com/aws/smithy-go/middleware"
 	smithyrequestcompression "github.com/aws/smithy-go/private/requestcompression"
 	smithyhttp "github.com/aws/smithy-go/transport/http"

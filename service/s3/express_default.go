@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/internal/sync/singleflight"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sync/singleflight"
 	"github.com/aws/smithy-go/container/private/cache"
 	"github.com/aws/smithy-go/container/private/cache/lru"
 )

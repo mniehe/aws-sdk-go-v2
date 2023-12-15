@@ -5,9 +5,9 @@ package bedrockagentruntime
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/service/bedrockagentruntime/types"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
+	"github.com/mniehe/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/mniehe/aws-sdk-go-v2/service/bedrockagentruntime/types"
 	"github.com/aws/smithy-go/middleware"
 	smithysync "github.com/aws/smithy-go/sync"
 	smithyhttp "github.com/aws/smithy-go/transport/http"

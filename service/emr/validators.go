@@ -5,7 +5,7 @@ package emr
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/emr/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/emr/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

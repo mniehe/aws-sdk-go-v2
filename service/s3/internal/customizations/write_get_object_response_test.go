@@ -10,8 +10,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
 	"github.com/google/go-cmp/cmp"
 )
 

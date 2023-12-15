@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	ictx "github.com/aws/aws-sdk-go-v2/internal/context"
-	"github.com/aws/aws-sdk-go-v2/service/internal/checksum"
+	ictx "github.com/mniehe/aws-sdk-go-v2/internal/context"
+	"github.com/mniehe/aws-sdk-go-v2/service/internal/checksum"
 	"github.com/aws/smithy-go/middleware"
 )
 

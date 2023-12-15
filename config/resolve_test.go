@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	"github.com/aws/aws-sdk-go-v2/credentials"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting/unit"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	awshttp "github.com/mniehe/aws-sdk-go-v2/aws/transport/http"
+	"github.com/mniehe/aws-sdk-go-v2/credentials"
+	"github.com/mniehe/aws-sdk-go-v2/feature/ec2/imds"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awstesting"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awstesting/unit"
 	"github.com/aws/smithy-go/logging"
 	"github.com/google/go-cmp/cmp"
 )

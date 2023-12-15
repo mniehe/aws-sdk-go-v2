@@ -5,7 +5,7 @@ package batch
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
 	smithy "github.com/aws/smithy-go"
 	smithyauth "github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/middleware"

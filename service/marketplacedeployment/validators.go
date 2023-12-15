@@ -5,7 +5,7 @@ package marketplacedeployment
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/marketplacedeployment/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/marketplacedeployment/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

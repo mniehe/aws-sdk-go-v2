@@ -5,7 +5,7 @@ package simspaceweaver
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/simspaceweaver/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/simspaceweaver/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

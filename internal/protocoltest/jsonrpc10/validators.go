@@ -5,7 +5,7 @@ package jsonrpc10
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/types"
+	"github.com/mniehe/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

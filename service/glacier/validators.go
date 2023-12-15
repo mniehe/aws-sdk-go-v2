@@ -5,7 +5,7 @@ package glacier
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/glacier/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/glacier/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

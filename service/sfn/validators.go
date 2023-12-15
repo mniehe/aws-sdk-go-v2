@@ -5,7 +5,7 @@ package sfn
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/sfn/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/sfn/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

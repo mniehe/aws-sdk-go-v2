@@ -5,7 +5,7 @@ package transcribestreaming
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/transcribestreaming/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/transcribestreaming/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

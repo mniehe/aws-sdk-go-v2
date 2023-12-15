@@ -3,7 +3,7 @@
 package types
 
 import (
-	"github.com/aws/aws-sdk-go-v2/service/resourceexplorer2/document"
+	"github.com/mniehe/aws-sdk-go-v2/service/resourceexplorer2/document"
 	smithydocument "github.com/aws/smithy-go/document"
 	"time"
 )

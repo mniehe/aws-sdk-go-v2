@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"path"
 
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
 
-	"github.com/aws/aws-sdk-go-v2/internal/endpoints/awsrulesfn"
+	"github.com/mniehe/aws-sdk-go-v2/internal/endpoints/awsrulesfn"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/encoding/httpbinding"
 	"github.com/aws/smithy-go/middleware"

@@ -5,7 +5,7 @@ package omics
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/omics/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/omics/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

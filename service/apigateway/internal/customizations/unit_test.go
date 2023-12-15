@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/apigateway"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/service/apigateway"
 
 	"github.com/aws/smithy-go"
 )

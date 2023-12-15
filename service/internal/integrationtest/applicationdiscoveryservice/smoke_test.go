@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/service/applicationdiscoveryservice"
+	"github.com/mniehe/aws-sdk-go-v2/service/applicationdiscoveryservice"
 
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/mniehe/aws-sdk-go-v2/service/internal/integrationtest"
 )
 
 func TestInteg_00_DescribeAgents(t *testing.T) {

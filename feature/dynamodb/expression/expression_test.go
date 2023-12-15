@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/service/dynamodb/types"
 )
 
 type exprErrorMode string

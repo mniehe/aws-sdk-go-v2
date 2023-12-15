@@ -3,7 +3,7 @@
 package awsrestjson
 
 import (
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
 	smithyauth "github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/logging"
 	"github.com/aws/smithy-go/middleware"

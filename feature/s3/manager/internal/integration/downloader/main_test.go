@@ -15,12 +15,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager/internal/integration"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	"github.com/aws/aws-sdk-go-v2/internal/sdkio"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/config"
+	"github.com/mniehe/aws-sdk-go-v2/feature/s3/manager"
+	"github.com/mniehe/aws-sdk-go-v2/feature/s3/manager/internal/integration"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awstesting"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdkio"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
 )
 
 var benchConfig BenchmarkConfig

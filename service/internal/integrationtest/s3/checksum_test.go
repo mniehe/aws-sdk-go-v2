@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	s3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3/types"
+	s3types "github.com/mniehe/aws-sdk-go-v2/service/s3/types"
 	"github.com/aws/smithy-go/logging"
 	"github.com/google/go-cmp/cmp"
 )

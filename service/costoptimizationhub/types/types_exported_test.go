@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/costoptimizationhub/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/costoptimizationhub/types"
 )
 
 func ExampleResourceDetails_outputUsage() {

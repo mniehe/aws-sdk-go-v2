@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/middleware/private/metrics"
-	v4Internal "github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4"
-	internalauth "github.com/aws/aws-sdk-go-v2/internal/auth"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
+	"github.com/mniehe/aws-sdk-go-v2/aws/middleware/private/metrics"
+	v4Internal "github.com/mniehe/aws-sdk-go-v2/aws/signer/internal/v4"
+	internalauth "github.com/mniehe/aws-sdk-go-v2/internal/auth"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

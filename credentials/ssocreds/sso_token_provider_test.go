@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/service/ssooidc"
 	smithybearer "github.com/aws/smithy-go/auth/bearer"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/service/ssooidc"
 )
 
 func TestSSOTokenProvider(t *testing.T) {

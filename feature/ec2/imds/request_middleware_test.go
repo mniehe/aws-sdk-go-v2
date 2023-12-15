@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/hex"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awstesting"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"github.com/google/go-cmp/cmp"
@@ -213,7 +213,7 @@ func TestOperationTimeoutMiddleware_withCustomDeadline(t *testing.T) {
 // Ensure that the response body is read in the deserialize middleware,
 // ensuring that the timeoutOperation middleware won't race canceling the
 // context with the upstream reading the response body.
-//   - https://github.com/aws/aws-sdk-go-v2/issues/1253
+//   - https://github.com/mniehe/aws-sdk-go-v2/issues/1253
 func TestDeserailizeResponse_cacheBody(t *testing.T) {
 	type Output struct {
 		Content io.ReadCloser

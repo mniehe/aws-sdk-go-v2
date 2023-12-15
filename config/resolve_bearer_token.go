@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go-v2/service/ssooidc"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/ssocreds"
+	"github.com/mniehe/aws-sdk-go-v2/service/ssooidc"
 	smithybearer "github.com/aws/smithy-go/auth/bearer"
 )
 

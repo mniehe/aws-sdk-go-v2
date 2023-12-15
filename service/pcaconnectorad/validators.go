@@ -5,7 +5,7 @@ package pcaconnectorad
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/pcaconnectorad/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/pcaconnectorad/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

@@ -5,7 +5,7 @@ package ivsrealtime
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/ivsrealtime/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/ivsrealtime/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

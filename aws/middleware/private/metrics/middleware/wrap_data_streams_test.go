@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws/middleware/private/metrics"
-	"github.com/aws/aws-sdk-go-v2/aws/middleware/private/metrics/testutils"
+	"github.com/mniehe/aws-sdk-go-v2/aws/middleware/private/metrics"
+	"github.com/mniehe/aws-sdk-go-v2/aws/middleware/private/metrics/testutils"
 	"github.com/aws/smithy-go/middleware"
 )
 

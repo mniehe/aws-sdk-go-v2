@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/service/ssooidc"
 	"github.com/aws/smithy-go/auth/bearer"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/service/ssooidc"
 )
 
 // CreateTokenAPIClient provides the interface for the SSOTokenProvider's API

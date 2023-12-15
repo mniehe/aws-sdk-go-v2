@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/internal/awsutil"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/aws/middleware"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awsutil"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
 	"github.com/aws/smithy-go/logging"
 )
 

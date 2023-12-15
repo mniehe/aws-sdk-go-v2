@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/ssocreds"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
 	smithybearer "github.com/aws/smithy-go/auth/bearer"
 	"github.com/google/go-cmp/cmp"
 )

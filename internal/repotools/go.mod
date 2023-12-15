@@ -1,4 +1,4 @@
-module github.com/aws/aws-sdk-go-v2/internal/repotools
+module github.com/mniehe/aws-sdk-go-v2/internal/repotools
 
 go 1.19
 

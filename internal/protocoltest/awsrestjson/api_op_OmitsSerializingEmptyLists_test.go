@@ -4,9 +4,9 @@ package awsrestjson
 
 import (
 	"context"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	protocoltesthttp "github.com/aws/aws-sdk-go-v2/internal/protocoltest"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/awsrestjson/types"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	protocoltesthttp "github.com/mniehe/aws-sdk-go-v2/internal/protocoltest"
+	"github.com/mniehe/aws-sdk-go-v2/internal/protocoltest/awsrestjson/types"
 	"github.com/aws/smithy-go/middleware"
 	smithyprivateprotocol "github.com/aws/smithy-go/private/protocol"
 	smithyrand "github.com/aws/smithy-go/rand"

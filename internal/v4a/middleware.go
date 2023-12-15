@@ -3,9 +3,9 @@ package v4a
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	internalauth "github.com/aws/aws-sdk-go-v2/internal/auth"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
+	v4 "github.com/mniehe/aws-sdk-go-v2/aws/signer/v4"
+	internalauth "github.com/mniehe/aws-sdk-go-v2/internal/auth"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"net/http"

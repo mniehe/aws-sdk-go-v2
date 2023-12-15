@@ -5,7 +5,7 @@ package cloudtraildata
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/cloudtraildata/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/cloudtraildata/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

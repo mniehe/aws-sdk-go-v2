@@ -4,7 +4,7 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/iotroborunner/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/iotroborunner/types"
 )
 
 func ExampleOrientation_outputUsage() {

@@ -5,7 +5,7 @@ package cloudtrail
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/cloudtrail/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/cloudtrail/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

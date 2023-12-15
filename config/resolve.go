@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	awshttp "github.com/mniehe/aws-sdk-go-v2/aws/transport/http"
+	"github.com/mniehe/aws-sdk-go-v2/feature/ec2/imds"
 	"github.com/aws/smithy-go/logging"
 )
 

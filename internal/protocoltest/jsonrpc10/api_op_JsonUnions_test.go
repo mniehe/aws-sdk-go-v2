@@ -5,9 +5,9 @@ package jsonrpc10
 import (
 	"bytes"
 	"context"
-	"github.com/aws/aws-sdk-go-v2/aws"
-	protocoltesthttp "github.com/aws/aws-sdk-go-v2/internal/protocoltest"
-	"github.com/aws/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/types"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	protocoltesthttp "github.com/mniehe/aws-sdk-go-v2/internal/protocoltest"
+	"github.com/mniehe/aws-sdk-go-v2/internal/protocoltest/jsonrpc10/types"
 	smithydocument "github.com/aws/smithy-go/document"
 	"github.com/aws/smithy-go/middleware"
 	smithyprivateprotocol "github.com/aws/smithy-go/private/protocol"

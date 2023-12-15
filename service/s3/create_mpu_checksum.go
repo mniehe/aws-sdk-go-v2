@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	internalcontext "github.com/aws/aws-sdk-go-v2/internal/context"
+	internalcontext "github.com/mniehe/aws-sdk-go-v2/internal/context"
 	"github.com/aws/smithy-go/middleware"
 )
 

@@ -5,9 +5,9 @@ package glacier
 import (
 	"context"
 	"fmt"
-	awsmiddleware "github.com/aws/aws-sdk-go-v2/aws/middleware"
-	"github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	glaciercust "github.com/aws/aws-sdk-go-v2/service/glacier/internal/customizations"
+	awsmiddleware "github.com/mniehe/aws-sdk-go-v2/aws/middleware"
+	"github.com/mniehe/aws-sdk-go-v2/aws/signer/v4"
+	glaciercust "github.com/mniehe/aws-sdk-go-v2/service/glacier/internal/customizations"
 	"github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 )

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
+	v4 "github.com/mniehe/aws-sdk-go-v2/aws/signer/v4"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/auth"
 	"github.com/aws/smithy-go/logging"

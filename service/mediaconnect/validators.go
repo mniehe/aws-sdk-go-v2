@@ -5,7 +5,7 @@ package mediaconnect
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/mediaconnect/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/mediaconnect/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

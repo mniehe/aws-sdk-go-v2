@@ -16,13 +16,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/arn"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest"
-	"github.com/aws/aws-sdk-go-v2/service/internal/integrationtest/s3shared"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/aws/aws-sdk-go-v2/service/s3control"
-	"github.com/aws/aws-sdk-go-v2/service/sts"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/aws/arn"
+	"github.com/mniehe/aws-sdk-go-v2/service/internal/integrationtest"
+	"github.com/mniehe/aws-sdk-go-v2/service/internal/integrationtest/s3shared"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3control"
+	"github.com/mniehe/aws-sdk-go-v2/service/sts"
 )
 
 var setupMetadata = struct {

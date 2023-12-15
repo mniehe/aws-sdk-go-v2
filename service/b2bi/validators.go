@@ -5,7 +5,7 @@ package b2bi
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/b2bi/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/b2bi/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

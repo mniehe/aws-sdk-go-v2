@@ -9,17 +9,17 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/credentials"
-	"github.com/aws/aws-sdk-go-v2/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go-v2/credentials/endpointcreds"
-	"github.com/aws/aws-sdk-go-v2/credentials/processcreds"
-	"github.com/aws/aws-sdk-go-v2/credentials/ssocreds"
-	"github.com/aws/aws-sdk-go-v2/credentials/stscreds"
-	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
-	"github.com/aws/aws-sdk-go-v2/service/sso"
-	"github.com/aws/aws-sdk-go-v2/service/ssooidc"
-	"github.com/aws/aws-sdk-go-v2/service/sts"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/credentials"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/ec2rolecreds"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/endpointcreds"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/processcreds"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/ssocreds"
+	"github.com/mniehe/aws-sdk-go-v2/credentials/stscreds"
+	"github.com/mniehe/aws-sdk-go-v2/feature/ec2/imds"
+	"github.com/mniehe/aws-sdk-go-v2/service/sso"
+	"github.com/mniehe/aws-sdk-go-v2/service/ssooidc"
+	"github.com/mniehe/aws-sdk-go-v2/service/sts"
 )
 
 const (

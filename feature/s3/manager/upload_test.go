@@ -16,14 +16,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/aws/aws-sdk-go-v2/aws/retry"
-	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
-	s3testing "github.com/aws/aws-sdk-go-v2/feature/s3/manager/internal/testing"
-	"github.com/aws/aws-sdk-go-v2/internal/awstesting"
-	"github.com/aws/aws-sdk-go-v2/internal/sdk"
-	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/aws/aws-sdk-go-v2/service/s3/types"
+	"github.com/mniehe/aws-sdk-go-v2/aws"
+	"github.com/mniehe/aws-sdk-go-v2/aws/retry"
+	"github.com/mniehe/aws-sdk-go-v2/feature/s3/manager"
+	s3testing "github.com/mniehe/aws-sdk-go-v2/feature/s3/manager/internal/testing"
+	"github.com/mniehe/aws-sdk-go-v2/internal/awstesting"
+	"github.com/mniehe/aws-sdk-go-v2/internal/sdk"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3"
+	"github.com/mniehe/aws-sdk-go-v2/service/s3/types"
 	"github.com/google/go-cmp/cmp"
 )
 

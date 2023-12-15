@@ -5,7 +5,7 @@ package redshiftdata
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/redshiftdata/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/redshiftdata/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )

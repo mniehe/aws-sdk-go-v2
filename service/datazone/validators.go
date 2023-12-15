@@ -5,7 +5,7 @@ package datazone
 import (
 	"context"
 	"fmt"
-	"github.com/aws/aws-sdk-go-v2/service/datazone/types"
+	"github.com/mniehe/aws-sdk-go-v2/service/datazone/types"
 	smithy "github.com/aws/smithy-go"
 	"github.com/aws/smithy-go/middleware"
 )
