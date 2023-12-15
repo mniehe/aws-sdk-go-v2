@@ -5,12 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go-v2/internal/rand"
 	"github.com/aws/aws-sdk-go-v2/internal/sdk"
 	"github.com/aws/smithy-go/logging"
 	"github.com/aws/smithy-go/middleware"
-	smithyrand "github.com/aws/smithy-go/rand"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/segmentio/ksuid"
 )
 
 // ClientRequestID is a Smithy BuildMiddleware that will generate a unique ID for logical API operation
@@ -31,10 +30,8 @@ func (r ClientRequestID) HandleBuild(ctx context.Context, in middleware.BuildInp
 		return out, metadata, fmt.Errorf("unknown transport type %T", req)
 	}
 
-	invocationID, err := smithyrand.NewUUID(rand.Reader).GetUUID()
-	if err != nil {
-		return out, metadata, err
-	}
+	id := ksuid.New()
+	invocationID := id.String()
 
 	const invocationIDHeader = "Amz-Sdk-Invocation-Id"
 	req.Header[invocationIDHeader] = append(req.Header[invocationIDHeader][:0], invocationID)
